@@ -11,7 +11,7 @@ from time import sleep, time
 
 import requests
 
-TOKEN_ENV_VAR = 'PAUSED_DEPENDABOT_REPOS_TOKEN'
+TOKEN_ENV_VAR = 'DEPENDABOT_PAUSED_REPORT_TOKEN'
 API_BASE = 'https://api.github.com'
 
 def get_timestamp():
